@@ -27,4 +27,4 @@ After install, the CKEditor toolbar shows a text button **Abbreviation**. No ext
 ## Credits
 
 Original extension: Georg Ringer and Wolfgang Höller for [Studio Mitte, Linz](https://studiomitte.com).  
-Maintainer: Markus.
+Maintainer: Maguzzz.
