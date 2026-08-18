@@ -1,15 +1,11 @@
 <?php
 
 return [
-    // required import configurations of other extensions,
-    // in case a module imports from another package
-    'dependencies' => ['backend'],
+    'dependencies' => ['backend', 'rte_ckeditor'],
     'tags' => [
         'backend.form',
     ],
     'imports' => [
-        // recursive definiton, all *.js files in this folder are import-mapped
-        // trailing slash is required per importmap-specification
-        '@studiomitte/rte-ckeditor-abbr/' => 'EXT:rte_ckeditor_abbr/Resources/Public/JavaScript/',
+        '@univie/rte-ckeditor-abbr/abbreviation.js' => 'EXT:univie_rte_abbr/Resources/Public/JavaScript/abbreviation.js',
     ],
 ];

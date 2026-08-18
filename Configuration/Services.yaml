@@ -1,0 +1,6 @@
+services:
+  Univie\RteCkeditorAbbr\EventListener\AddAbbreviationToEditorConfig:
+    tags:
+      - name: event.listener
+        identifier: 'univie/rte-ckeditor-abbr'
+        event: TYPO3\CMS\RteCKEditor\Form\Element\Event\AfterPrepareConfigurationForEditorEvent

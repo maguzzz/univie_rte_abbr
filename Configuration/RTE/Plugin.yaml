@@ -1,9 +1,0 @@
-editor:
-  config:
-    importModules:
-      - '@studiomitte/rte-ckeditor-abbr/abbreviation.js'
-    contentsCss:
-      - "EXT:rte_ckeditor_abbr/Resources/Public/Css/Abbr.css"
-    toolbar:
-      item:
-        - abbreviation

@@ -1,16 +1,19 @@
 {
-	"name": "studiomitte/rte-ckeditor-abbr",
+	"name": "univie/rte-ckeditor-abbr",
 	"type": "typo3-cms-extension",
-	"description": "Add Abbreviations information through the ckeditor",
+	"description": "TYPO3 13 / CKEditor 5 fork of Studio Mitte rte_ckeditor_abbr: insert abbreviations in the rich-text editor.",
 	"authors": [
 		{
 			"name": "Georg Ringer",
-			"role": "Developer"
+			"role": "Original developer"
 		},
 		{
 			"name": "Wolfgang Höller",
-			"role": "Developer"
-
+			"role": "Original developer"
+		},
+		{
+			"name": "Maguzzz",
+			"role": "Maintainer (TYPO3 13 fork)"
 		}
 	],
 	"license": [
@@ -21,17 +24,12 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"StudioMitte\\RteCkEditorAbbr\\": "Classes"
-		}
-	},
-	"autoload-dev": {
-		"psr-4": {
-			"StudioMitte\\RteCkEditorAbbr\\Tests\\": "Tests"
+			"Univie\\RteCkeditorAbbr\\": "Classes"
 		}
 	},
 	"extra": {
 		"typo3/cms": {
-			"extension-key": "rte_ckeditor_abbr"
+			"extension-key": "univie_rte_abbr"
 		}
 	}
 }
